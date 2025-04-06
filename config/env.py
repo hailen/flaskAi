@@ -13,9 +13,9 @@ FLASK_DEBUG = (os.getenv('FLASK_DEBUG', 'True') == 'True')
 
 
 # 缓存服务地址
-REDIS_HOST = os.getenv('REDIS_HOST', '192.168.72.138')
+REDIS_HOST = os.getenv('REDIS_HOST', '127.0.0.1')
 # 缓存服务端口
-REDIS_PORT = os.getenv('REDIS_PORT', 6380)
+REDIS_PORT = os.getenv('REDIS_PORT', 6379)
 
 # 大模型URL
 LLMS_API_URL = os.getenv('LLMS_API_URL', 'xxxxxxxxxxxxx')
